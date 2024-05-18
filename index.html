@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Blog Homepage</title>
+    <link rel="stylesheet" href="./assets/css/form.css"/>
 </head>
 <body>
-    
+    <header>
+        <button>Light Mode</button>
+    </header>
+    <div id="container">
+        <aside>
+            <h1>My Blog of Crazy Thoughts</h1>
+        </aside>
+        <form>
+            <h2>What's crazy thought do I have now?</h2>
+            <div id="inner-form-div">
+                <label for="username">Username</Label>
+                <input id="username" for="username">
+                <label for="title">Title</label>
+                <input id="title" for="input">
+                <label for="content">Content</label>
+                <textarea id="content" for="content"></textarea>
+                <button id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="./assets/js/form.js"></script>
 </body>
 </html>

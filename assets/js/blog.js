@@ -1,0 +1,1 @@
+//Todo: Take blog info from local storage, use .createElement to dynamically create elements with user information, Append information into blog
