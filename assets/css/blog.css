@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+    
+header {
+    text-align: right;
+    padding: 2% 1%;
+    margin-bottom: 10px;
+    border-bottom: 10px double black;
+}
+
+Footer {
+    padding: 10px;
+    margin-top: 10px;
+    border-top: 10px double black;
+}
+
+footer ul {
+    list-style-type: none;
+    
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: gray;
+    color: white;
+}
