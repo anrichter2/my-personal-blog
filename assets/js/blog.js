@@ -5,7 +5,7 @@ const modeToggle = document.querySelector('#mode-toggle');
 const container = document.querySelector('.container')
 const mainEl = document.querySelector('.blog-posts')
 
-const blogPosts = [];
+let blogPosts = [];
 
 let mode = 'light';
 
@@ -20,20 +20,21 @@ modeToggle.addEventListener('click', function() {
 });
 
 function renderPosts() {
+    console.log(blogPosts)
     for (let i = 0; i < blogPosts.length; i++) {
-        const blogPosts = blogPosts[i];
 
         const div = document.createElement('div');
         const title = document.createElement('h3');
         const content = document.createElement('p');
         const username = document.createElement('h4');
-        h3.textContent = blogPosts[i].title;
-        p.textContent = blogPosts[i].content;
-        h4.textContent = blogPosts[i].username;
+        title.textContent = blogPosts[i].title;
+        content.textContent = blogPosts[i].content;
+        username.textContent = blogPosts[i].username;
         mainEl.appendChild(div);
         div.appendChild(title);
-        title.appendChild(content);
-        content.appendChild(username);
+        div.appendChild(content);
+        div.appendChild(username);
+        // akon classList property
     }
 }
 

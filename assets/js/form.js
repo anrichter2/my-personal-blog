@@ -21,7 +21,7 @@ modeToggle.addEventListener('click', function() {
 
 const formInfo = []
 
-submitButton.addEventListener('click', function(event) {
+submitButton.addEventListener('click', function(event) { //maybe submit instead of click
     event.preventDefault();
 
     if (username.value === '') {
@@ -38,4 +38,6 @@ submitButton.addEventListener('click', function(event) {
     formInfo.push({username: username.value, title: title.value, content: content.value.trim()});
 
     localStorage.setItem('formInfo', JSON.stringify(formInfo));
+
+    window.location.href = 'blog.html';
 });
