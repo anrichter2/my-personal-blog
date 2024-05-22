@@ -3,30 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Homepage</title>
+    <title>Decompression Chamber Homepage</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/form.css"/>
 </head>
 <body>
     <header>
+        <h1>The Decompression Chamber</h1>
         <button id="mode-toggle">Light/Dark mode toggle</button>
     </header>
     <div id="container">
         <aside>
-            <h1>My Blog of Crazy Thoughts</h1>
+            <h2>Feeling the overbearing weight of the world on your shoulders?</h1>
         </aside>
         <form>
-            <h2>What's crazy thought do I have now?</h2>
-            <div id="inner-form-div">
-                <label for="username">Username</Label>
-                <input id="username" for="username">
-                <label for="title">Title</label>
-                <input id="title" for="input">
-                <label for="content">Content</label>
-                <textarea id="content" for="content"></textarea>
-                <button id="submit">Submit</button>
+            <div id="outer-form-div">
+                <h3>Take a minute to decompress by writing what has you stressed.</h2>
+                <div id="inner-form-div">
+                    <label for="username">Username</Label>
+                    <input id="username" for="username">
+                    <label for="title">Title</label>
+                    <input id="title" for="input">
+                    <label for="content">Content</label>
+                    <textarea id="content" for="content"></textarea>
+                    <button id="submit" type="submit">Submit</button>
+                </div>
             </div>
         </form>
     </div>
+    <footer>
+        <h4>Made with great care by anrichter2</h4>
+        <ul>
+            <li><a href="https://anrichter2.github.io/my-portfolio/"><strong>Portfolio Website</strong></a></li>
+            <li><a href="mailto:anrichter2@gmail.com"><strong>Email:</strong> anrichter2@gmail.com</a></li>
+        </ul>
+    </footer>
+    <script src="./assets/js/logic.js"></script>
     <script src="./assets/js/form.js"></script>
 </body>
 </html>
