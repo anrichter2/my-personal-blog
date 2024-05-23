@@ -12,9 +12,9 @@ N/A
 
 Below are screenshots showing my blog website.
 
-![Blog Form Page](assets/images/Blog-Image-1)
+![Blog Form Page](assets/images/Blog-Image-1.png)
 
-![Blog Post Display Page](assets/images/Blog-Image-2)
+![Blog Post Display Page](assets/images/Blog-Image-2.png)
 
 Link to the deployed webpage
 [My Personal Blog](https://anrichter2.github.io/my-personal-blog/)
