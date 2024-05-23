@@ -10,14 +10,14 @@ N/A
 
 ## Usage
 
-Below are screenshots showing my work portfolio website.
+Below are screenshots showing my blog website.
 
-![alt text](assets/images/)
+![Blog Form Page](assets/images/Blog-Image-1)
 
-![alt text](assets/images/)
+![Blog Post Display Page](assets/images/Blog-Image-2)
 
 Link to the deployed webpage
-[My Personal Blog](URL)
+[My Personal Blog](https://anrichter2.github.io/my-personal-blog/)
 
 ## Credits
 
