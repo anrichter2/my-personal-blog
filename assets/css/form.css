@@ -49,7 +49,6 @@ h4 {
 footer {
     padding: 10px;
     border-top: 10px double black;
-    background-color: rgb(125, 125, 237);
 }
 
 footer ul {
@@ -61,11 +60,10 @@ footer ul a {
     text-decoration: none;
 }
 
-#container {
+.container {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
-    background-color: rgb(157, 246, 207);
 }
 
 #outer-form-div {
