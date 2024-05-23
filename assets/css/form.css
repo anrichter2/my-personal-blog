@@ -54,8 +54,10 @@ footer ul {
 
 footer ul a {
     text-decoration: none;
+    padding: 3px;
 }
 
+/*pseudo class for the hyperlinks in the footer*/
 footer ul a:hover {
     background-color:brown;
 }

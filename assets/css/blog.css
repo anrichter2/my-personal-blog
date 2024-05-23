@@ -29,7 +29,7 @@ footer ul a {
     padding: 3px;
 }
 
-/*pseudo element for the hyperlinks in the footer*/
+/*pseudo class for the hyperlinks in the footer*/
 footer ul a:hover {
     background-color:brown;
 }
