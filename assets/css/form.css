@@ -1,8 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-    
+/*General element properties*/
 header {
     display: flex;
     justify-content: space-between;
@@ -60,12 +56,18 @@ footer ul a {
     text-decoration: none;
 }
 
+footer ul a:hover {
+    background-color:brown;
+}
+
+/*class properties*/
 .container {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
 }
 
+/*id properties*/
 #outer-form-div {
     margin: 0 5%;
     padding: 2%;
@@ -80,6 +82,7 @@ footer ul a {
     margin: auto;
 }
 
+/*id Properties for the input elements and button*/
 #username,
 #title,
 #content,
@@ -90,8 +93,11 @@ footer ul a {
     display: block;
 }
 
+/*Setting properties for the buttons*/
 #mode-toggle,
 #submit {
+    padding: 10px;
+    border-radius: 10px;
     background-color: rgb(26, 26, 173);
     color: white;
     cursor: pointer;

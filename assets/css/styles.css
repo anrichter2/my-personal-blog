@@ -1,8 +1,17 @@
+/*Created root variables for changing colors quickly if needed*/
 :root {
     --soft-light: rgb(181, 245, 245);
     --hard-light: rgb(157, 246, 207);
 }
 
+/*Global properties set here so both html form can use it*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif,sans-serif;
+}
+
+/*Class properties for when the page is in light mode or dark mode*/
 .soft-light {
     background-color: var(--soft-light);
     color: black;

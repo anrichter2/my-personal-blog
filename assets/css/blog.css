@@ -1,8 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-    
+/*General element properties*/   
 header {
     display: flex;
     flex-wrap: wrap;
@@ -30,4 +26,20 @@ footer ul {
 
 footer ul a {
     text-decoration: none;
+    padding: 3px;
+}
+
+/*pseudo element for the hyperlinks in the footer*/
+footer ul a:hover {
+    background-color:brown;
+}
+
+/*id properties for the buttons*/
+#back-button,
+#mode-toggle {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(26, 26, 173);
+    color: white;
+    cursor: pointer;
 }
